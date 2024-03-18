@@ -21,3 +21,12 @@ console.log(score1 > score2);
 let score3 = "300";
 console.log(score3 == score2);  //Doesn't match datatype
 console.log(score3 === score2);
+
+
+let isLoggedIn = true;
+let cardDetails = false;
+console.log(isLoggedIn && cardDetails);
+
+let isGmailLogin = true;
+let isGithubLogin = false;
+console.log(isGmailLogin || isGithubLogin);
