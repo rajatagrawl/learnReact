@@ -11,3 +11,9 @@ let coursePrice = 200;
 let gst = 36;
 let finalPrice = coursePrice + gst;
 console.log("Final price is :", finalPrice);
+
+let score1 = 200;
+let score2 = 300;
+console.log(score1 == score2);
+console.log(score1 < score2);
+console.log(score1 > score2);
