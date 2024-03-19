@@ -5,14 +5,31 @@
 //     console.log("You are allowed to vote");
 // }
 
-let signal = "Yellow"
+let signal = "Green"
 
-if (signal == "Red") {
-    console.log("Stop");
-} else if (signal == "Yellow") {
-    console.log("Waiting");
-} else if (signal == "Green") {
-    console.log("Go Go Go");
-} else {
-    console.log("Invalid");
+// if (signal == "Red") {
+//     console.log("Stop");
+// } else if (signal == "Yellow") {
+//     console.log("Waiting");
+// } else if (signal == "Green") {
+//     console.log("Go Go Go");
+// } else {
+//     console.log("Invalid");
+// }
+
+switch (signal) {
+    case "Green":
+        console.log("Go Go Go");
+        break;
+        
+    case "Yellow":
+        console.log("Wait");
+        break;
+    
+    case "Red":
+        console.log("Stop");
+        break;
+
+    default:
+        console.log("Invalid");
 }
