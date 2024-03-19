@@ -17,19 +17,24 @@ let signal = "Green"
 //     console.log("Invalid");
 // }
 
-switch (signal) {
-    case "Green":
-        console.log("Go Go Go");
-        break;
+// switch (signal) {
+//     case "Green":
+//         console.log("Go Go Go");
+//         break;
         
-    case "Yellow":
-        console.log("Wait");
-        break;
+//     case "Yellow":
+//         console.log("Wait");
+//         break;
     
-    case "Red":
-        console.log("Stop");
-        break;
+//     case "Red":
+//         console.log("Stop");
+//         break;
 
-    default:
-        console.log("Invalid");
+//     default:
+//         console.log("Invalid");
+// }
+
+
+for (let i=0; i<5; i++) {
+    console.log(i);
 }
