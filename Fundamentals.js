@@ -45,7 +45,10 @@ let i = 0;
 //     i++;
 // }
 
-do {
-    console.log(i);
-    i++;
-} while(i > 5)
+// do {
+//     console.log(i);
+//     i++;
+// } while(i > 5)
+
+let isLoggedIn = false ;
+isLoggedIn ? console.log("HomePage"):console.log("LoginPage");
