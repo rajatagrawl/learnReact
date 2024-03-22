@@ -6,9 +6,9 @@ function greet() {
 greet();
 
 
-function sqr(x) {
+function sqr(x) {   // x is parameter
     return x*x;
 }
 
-let result = sqr(8) ;
+let result = sqr(8) ; // 8 is argument
 console.log("Square of number is",result);
