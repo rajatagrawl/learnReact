@@ -1,6 +1,6 @@
 function unlimitedParameters() {
     let sum = 0;
-    for (i=0; i<arguments.length; i++) {
+    for (i=0; i<arguments.length; i++) {    //"arguments" keyword.
         sum += arguments[i];
     }
     return sum ;
