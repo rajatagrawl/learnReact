@@ -19,4 +19,4 @@ function obj3(i, n, s){
 const e = new obj3(103, "Amy", 14000);
 console.log(e);
 console.log(e.id);
-console.log(e.name);
+console.log(e['name']);
